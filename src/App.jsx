@@ -359,36 +359,6 @@ function App() {
           <div className="container">
             <h2 id="service-area-heading">Service Area</h2>
             <p className="service-area-text">Currently operating primarily in North Carolina and South Carolina, with limited availability in Georgia and Virginia. Applicants from anywhere in the United States may apply.</p>
-            <div className="service-map" aria-hidden="true">
-              <div className="map-container">
-                <div className="map-dot primary" style={{ top: '40%', left: '55%' }}>
-                  <span className="map-label">NC</span>
-                  <span className="map-status">Primary</span>
-                </div>
-                <div className="map-dot primary" style={{ top: '50%', left: '58%' }}>
-                  <span className="map-label">SC</span>
-                  <span className="map-status">Primary</span>
-                </div>
-                <div className="map-dot secondary" style={{ top: '45%', left: '63%' }}>
-                  <span className="map-label">GA</span>
-                  <span className="map-status">Occasional</span>
-                </div>
-                <div className="map-dot secondary" style={{ top: '35%', left: '60%' }}>
-                  <span className="map-label">VA</span>
-                  <span className="map-status">Occasional</span>
-                </div>
-                <div className="map-dot welcome" style={{ top: '60%', left: '50%' }}>
-                  <span className="map-label">Other U.S.</span>
-                  <span className="map-status">Welcome</span>
-                </div>
-                <svg className="map-lines" viewBox="0 0 200 100">
-                  <line x1="110" y1="40" x2="116" y2="45" stroke="#16B8A6" strokeWidth="1" opacity="0.3" />
-                  <line x1="126" y1="50" x2="120" y2="45" stroke="#16B8A6" strokeWidth="1" opacity="0.3" />
-                  <line x1="120" y1="45" x2="100" y2="60" stroke="#28C7D9" strokeWidth="1" opacity="0.2" />
-                  <line x1="120" y1="45" x2="126" y2="35" stroke="#28C7D9" strokeWidth="1" opacity="0.2" />
-                </svg>
-              </div>
-            </div>
           </div>
         </section>
 
