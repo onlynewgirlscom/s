@@ -1,0 +1,46 @@
+
+The `public/CNAME` file is included, but when using a custom GitHub Actions Pages workflow the domain must still be configured in GitHub's Pages settings.
+
+## FormSubmit Activation
+
+The first FormSubmit submission will generally trigger an activation email to onlynewgirls@gmail.com. The owner must activate the form before relying on it.
+
+### Test Procedure
+
+1. Deploy.
+2. Submit a non-sensitive test application.
+3. Complete any FormSubmit activation.
+4. Submit a second test.
+5. Confirm delivery.
+6. Confirm attachment delivery.
+7. Confirm the success redirect.
+8. Confirm CAPTCHA.
+9. Confirm the 10 MB client-side limit.
+10. Remove test data.
+
+## Pre-Launch Compliance Checklist
+
+- [ ] Obtain review from a North Carolina attorney experienced in adult entertainment, media, First Amendment, criminal, employment, and contract law.
+- [ ] Review the partnered explicit-production model under North Carolina prostitution statutes before filming or compensating partnered explicit activity.
+- [ ] Confirm local zoning and permit requirements for every fixed production location.
+- [ ] Create federal 18 U.S.C. §§ 2257 and 2257A identity, indexing, recordkeeping, inspection, and labeling procedures where applicable.
+- [ ] Create North Carolina-compliant performer age, identity, act-specific consent, distribution-consent, and removal records.
+- [ ] Designate an internal employee or responsible person to handle performer-removal requests.
+- [ ] Establish a process capable of temporary removal when consent is questioned.
+- [ ] Establish a process capable of performer-requested removal within 72 hours.
+- [ ] Establish a process to prevent removed material from being reposted within systems controlled by the company.
+- [ ] Use secure methods for government identification; never use the public FormSubmit application.
+- [ ] Obtain legal review of all model releases, performer agreements, contractor agreements, revenue-sharing agreements, commercial licenses, and collaborator agreements.
+- [ ] Establish tax-reporting and worker-classification procedures.
+- [ ] Review insurance needs.
+- [ ] Maintain privacy and data-retention practices consistent with the published privacy notice.
+- [ ] Do not add explicit visual material to this recruitment page without a new review of North Carolina age-verification requirements.
+- [ ] Do not describe the sessionStorage age gate as statutory verification.
+- [ ] Do not claim DMCA safe-harbor status unless a designated agent has actually been registered and the required public agent information is posted.
+- [ ] Do not make guaranteed-earnings claims.
+- [ ] Do not publish a formal § 2257 records-location disclosure without an actual compliant records custodian and record location.
+- [ ] Conduct trademark clearance for OnlyNewGirls.com and maintain a visual identity distinct from OnlyFans.
+
+## Legal Disclaimer
+
+This project provides a compliance-oriented website structure, not legal advice or a legal opinion. Website language cannot cure an unlawful operating model. Obtain qualified legal review before recruiting performers, filming explicit partnered content, publishing content, or accepting revenue.

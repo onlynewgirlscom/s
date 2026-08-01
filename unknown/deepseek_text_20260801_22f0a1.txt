@@ -1,0 +1,28 @@
+.github/
+  workflows/
+    deploy-pages.yml
+public/
+  .nojekyll
+  CNAME
+  404.html
+  favicon.svg
+  robots.txt
+  sitemap.xml
+  site.webmanifest
+src/
+  components/
+    AgeGate.jsx
+    ApplicationForm.jsx
+    Footer.jsx
+    Header.jsx
+    Icon.jsx
+    Modals.jsx
+  App.jsx
+  main.jsx
+  styles.css
+.gitignore
+eslint.config.js
+index.html
+package.json
+vite.config.js
+README.md
