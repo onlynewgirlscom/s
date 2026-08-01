@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://onlynewgirls.com/sitemap.xml
