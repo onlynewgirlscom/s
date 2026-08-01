@@ -1,16 +1,16 @@
-import js from '@eslint/js';
 import globals from 'globals';
 import react from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
 
 export default [
-  js.configs.recommended,
+  {
+    ignores: ['dist/**', 'node_modules/**'],
+  },
   {
     files: ['**/*.{js,jsx}'],
-    ignores: ['dist/**', 'node_modules/**'],
     languageOptions: {
-      ecmaVersion: 2020,
+      ecmaVersion: 'latest',
       globals: globals.browser,
       parserOptions: {
         ecmaVersion: 'latest',
@@ -30,6 +30,7 @@ export default [
       'react/prop-types': 'off',
       'react/react-in-jsx-scope': 'off',
       'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
+      'no-undef': 'error',
     },
   },
 ];
